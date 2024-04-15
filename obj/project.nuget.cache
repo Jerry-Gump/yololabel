@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "JzI33sUw+PSg5vbS03JVS4oD9hSgs0kaAvvrShtPqxbs5o5iWzv6yGodFJrFCk3DA9iblqlkl7hyuk7du+sxUA==",
+  "success": true,
+  "projectFilePath": "E:\\CrossLane\\YoloLabel\\YoloLabel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gongz\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\opencvsharp4\\4.9.0.20240103\\opencvsharp4.4.9.0.20240103.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\opencvsharp4.extensions\\4.9.0.20240103\\opencvsharp4.extensions.4.9.0.20240103.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\opencvsharp4.runtime.win\\4.9.0.20240103\\opencvsharp4.runtime.win.4.9.0.20240103.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\opencvsharp4.windows\\4.9.0.20240103\\opencvsharp4.windows.4.9.0.20240103.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\gongz\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
