@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|e:\\crosslane\\yololabel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|E:\\CrossLane\\YoloLabel\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|solutionrelative:classform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|e:\\crosslane\\yololabel\\classform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|E:\\CrossLane\\YoloLabel\\classform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2ECBD749-81F5-4610-8FD0-03F4CC5F8168}|YoloLabel.csproj|solutionrelative:classform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -46,7 +46,8 @@
               "RelativeToolTip": "ClassForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T07:45:18.234Z"
+              "WhenOpened": "2024-04-14T07:45:18.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,8 +58,7 @@
               "ToolTip": "E:\\CrossLane\\YoloLabel\\ClassForm.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ClassForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T07:40:25.967Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-04-14T07:40:25.967Z"
             },
             {
               "$type": "Document",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\CrossLane\\YoloLabel\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAADcCAAAAAAAAAAAnwE8CAAAsAAAA",
+              "ViewState": "AQIAAK8BAAAAAAAAAAAQwMYBAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T02:17:51.759Z",
               "EditorCaption": ""
@@ -82,8 +82,7 @@
               "ToolTip": "E:\\CrossLane\\YoloLabel\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T02:16:38.89Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-04-14T02:16:38.89Z"
             }
           ]
         }

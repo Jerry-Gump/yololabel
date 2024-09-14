@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoloLabel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5375a309be4b13cdff5f9fd6eac414b212543374")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa5b84101054030717f2a6ac3dcac97d04b8152f")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoloLabel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoloLabel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
