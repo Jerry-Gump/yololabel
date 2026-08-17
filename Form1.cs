@@ -47,7 +47,8 @@ namespace YoloLabel
             }
             else
             {
-                lblFolder = "";
+                lblFolder = Path.Join(System.AppDomain.CurrentDomain.BaseDirectory, "dataset", "labels");
+                Directory.CreateDirectory(lblFolder);
             }
             if (Directory.Exists(imgFolder))
             {
@@ -59,7 +60,8 @@ namespace YoloLabel
             }
             else
             {
-                imgFolder = "";
+                imgFolder = Path.Join(System.AppDomain.CurrentDomain.BaseDirectory, "dataset", "images");
+                Directory.CreateDirectory(imgFolder);
             }
         }
 
@@ -579,18 +581,25 @@ namespace YoloLabel
                 newSrc(-1);
                 button5.Focus();
                 e.Handled = true;
-            }else if(e.KeyCode == Keys.W)
+            }
+            else if (e.KeyCode == Keys.W)
             {
                 button3_Click(sender, null);
                 e.Handled = true;
-            }else if(e.KeyCode == Keys.S)
+            }
+            else if (e.KeyCode == Keys.S)
             {
                 button7_Click(sender, null);
                 e.Handled = true;
-            }else if(e.KeyCode == Keys.E)
+            }
+            else if (e.KeyCode == Keys.E)
             {
                 button4_Click(sender, null);
                 e.Handled = true;
+            }
+            else if (e.KeyCode == Keys.Delete)
+            {
+                deleteToolStripMenuItem_Click(sender, e);
             }
         }
         private void button5_Click(object sender, EventArgs e)
@@ -697,6 +706,42 @@ namespace YoloLabel
                     toolTip1.Active = true;
                 }
             }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            // 将所有的已经有label的图片进行镜像处理，同时也镜像一个label.txt
+            var files = Directory.GetFiles(lblFolder);
+            foreach (var file in files)
+            {
+                if (!file.EndsWith("_m.txt"))
+                {
+                    var fn = Path.GetFileNameWithoutExtension(file);
+                    var imgF = Path.Join(imgFolder, fn + ".jpg");
+                    if (!File.Exists(imgF))
+                    {
+                        imgF = Path.Join(imgFolder, fn + ".png");
+                    }
+                    if (File.Exists(imgF))
+                    {
+                        Mat srcImg = Cv2.ImRead(imgF, ImreadModes.Grayscale);
+                        var nimg = Path.Join(imgFolder, fn + "_m.jpg");
+                        Cv2.Flip(srcImg, srcImg, FlipMode.Y);
+                        Cv2.ImWrite(nimg, srcImg);
+                        srcImg.Release();
+
+                        List<SLabel> list = new List<SLabel>();
+                        readLabels(file, list);
+                        for(int i = 0; i < list.Count; i++)
+                        {
+                            list[i].rect = new RectangleF(1 - list[i].rect.Left, list[i].rect.Top, list[i].rect.Width, list[i].rect.Height);
+                        }
+                        var lblFileName = labelFileName(nimg);
+                        saveLabelFile(lblFileName, list);
+                    }
+                }
+            }
+            loadImageList();
         }
 
         /*

@@ -54,6 +54,7 @@
             deleteToolStripMenuItem = new ToolStripMenuItem();
             toolStripMenuItem1 = new ToolStripSeparator();
             toolTip1 = new ToolTip(components);
+            button10 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -62,6 +63,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(button10);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label3);
@@ -289,6 +291,16 @@
             toolStripMenuItem1.Name = "toolStripMenuItem1";
             toolStripMenuItem1.Size = new Size(145, 6);
             // 
+            // button10
+            // 
+            button10.Location = new Point(3, 543);
+            button10.Name = "button10";
+            button10.Size = new Size(84, 50);
+            button10.TabIndex = 14;
+            button10.Text = "Mirror";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -338,5 +350,6 @@
         private Label label3;
         private ToolStripSeparator toolStripMenuItem1;
         private ToolTip toolTip1;
+        private Button button10;
     }
 }
